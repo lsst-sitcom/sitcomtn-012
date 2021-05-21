@@ -1,0 +1,9 @@
+% bibentry template for lsst.bib in https://github.com/lsst/lsst-texmf/blob/master/texmf/bibtex/bib/lsst.bib
+
+@DocuShare{SITCOMTN-012,
+   author = { Chuck Claver },
+    title = {Rubin Construction Documentation Inventory},
+     year = 2021,
+    month = May,
+   handle = {SITCOMTN-012},
+      url = {https://sitcomtn-012.lsst.io } }
