@@ -1,4 +1,6 @@
 \documentclass[SE,authoryear,toc]{lsstdoc}
+% \documentclass[SE,lsstdraft,authoryear,toc]{lsstdoc}
+
 % lsstdoc documentation: https://lsst-texmf.lsst.io/lsstdoc.html
 \input{meta}
 
@@ -16,7 +18,16 @@
 % \setDocSubtitle{A subtitle}
 
 \author{%
-Chuck Claver
+Chuck Claver (chair)
+David Cabrera (co-Chair)
+Rob McKercher (co-chair)
+John Andrew
+Diane Hascall
+Patrick Ingraham
+Tony Johnson
+Kristen Metzger
+Austin Roberts
+Jonathan Sick
 }
 
 \setDocRef{SITCOMTN-012}
@@ -28,7 +39,7 @@ Chuck Claver
 % \setDocCurator{The Curator of this Document}
 
 \setDocAbstract{%
-This tech note bring together the sources of critical documentation that has been developed across the Rubin Observatory Construction Project.  This inventory is meant as a guide to the Rubin Operations team for how and what documentation is transferred  as a deliverable from the construction Project
+This tech note brings together the sources of critical documentation that has been developed across the Rubin Observatory Construction Project.  This inventory is meant as a guide to the Rubin Operations team for how and what documentation is transferred  as a deliverable from the construction Project
 }
 
 % Change history defined here.
@@ -36,7 +47,7 @@ This tech note bring together the sources of critical documentation that has bee
 % Fields: VERSION, DATE, DESCRIPTION, OWNER NAME.
 % See LPM-51 for version number policy.
 \setDocChangeRecord{%
-  \addtohist{1}{YYYY-MM-DD}{Unreleased.}{Chuck Claver}
+  \addtohist{1}{2021-06-01}{Initial draft from Confluence pages.}{Chuck Claver}
 }
 
 
@@ -50,6 +61,19 @@ This tech note bring together the sources of critical documentation that has bee
 % ADD CONTENT HERE
 % You can also use the \input command to include several content files.
 
+\input{Intro}
+\input{DocuShare}
+\input{TechNotes}
+\input{ConfluencePages}
+\input{EngineeringModels}
+\input{GitHub}
+% \input{SystemDatabases}
+\input{VerificationReports}
+\input{EPO}
+\input{InfoTech}
+% \input{OtherSources}
+
+\newpage
 \appendix
 % Include all the relevant bib files.
 % https://lsst-texmf.lsst.io/lsstdoc.html#bibliographies
