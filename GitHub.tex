@@ -1,22 +1,24 @@
 \newpage
 \section{GitHub}
 
-The Rubin Observatory uses GitHub for software and documentation collaboration. The Observatory uses a large number of GitHub repositories, primarily to ease access control. As such, each construction subsystem generally has its own GitHub organization, though in some cases subsystems have additional GitHub organizations for specific teams or projects. The main GitHub organization (github.com/lsst) contains all software components officially released by the Data Management Subsystem (i.e., the Science Pipelines), and as such it serves as the public face of the observatory for astronomers interested in Rubin/LSST software. Not all operations software is found in the "lsst" organization, though. For example, Science Platform software is contained in "lsst-sqre," Telescope \& Site software in "lsst-ts," EPO software in "lsst-epo," and camera software in several organizations.
+The Rubin Observatory uses GitHub for software and documentation collaboration. \citep{GitHub-cite} The Observatory uses a large number of GitHub repositories, primarily to ease access control. As such, each construction subsystem generally has its own GitHub organization, though in some cases subsystems have additional GitHub organizations for specific teams or projects. The main GitHub organization \url{https://github.com/lsst} contains all software components officially released by the Data Management Subsystem (i.e., the Science Pipelines), and as such it serves as the public face of the Observatory for astronomers interested in Rubin Observatory and LSST software. Not all operations software is found in the "lsst" organization, though. For example, the Science Platform software is contained in \url{https://github.com/lsst-sqre}, Telescope \& Site software in \url{https://github.com/lsst-ts}, EPO software in \url{https://github.com/lsst-epo}, and Camera software in several organizations.
 
-GitHub organizations with operational software and documentation will likely transition smoothly to operations teams. Particular attention will need to be paid to maintaining organizations that no longer have an active team associated with them.
+GitHub organizations with operational software and documentation will likely transition smoothly to Operations teams. Particular attention will need to be paid to maintaining organizations that no longer have an active team associated with them.
+
+The following table provides a large overview, but not exhaustive list of GitHub organizations.
 
 \begin{small}
 
 \begin{longtable}{p{0.175\textwidth}p{0.175\textwidth}p{0.175\textwidth}p{0.4\textwidth}}\hline
 \textbf{Organization} & \textbf{Subsystem(s)} & \textbf{Documents} & \textbf{Notes}\\\hline
-\href{https://github.com/lsst}{lsst}		& DM, PM, SIT--Com	&	LPM, LSE, LDM, RTN	&	LSST Science Pipelines and change-controlled documents. See DMTN-104 (DM product tree) \\\hline
-\href{https://github.com/lsst-camera-ccs}{lsst-camera-ccs}			& LSSTCam	& &	Camera Control System (semi-private). See also LSST CCS release management \\\hline
+\href{https://github.com/lsst}{lsst}		& DM, PM, SIT-Com	&	LPM, LSE, LDM, RTN	&	LSST Science Pipelines and change-controlled documents. See \href{https://dmtn-104.lsst.io/}{DMTN-104} (DM product tree) \\\hline
+\href{https://github.com/lsst-camera-ccs}{lsst-camera-ccs}			& LSSTCam	& &	Camera Control System (semi-private). See also \href{https://srs.slac.stanford.edu/releaseManagement/}{LSST CCS release management} \\\hline
 \href{https://github.com/lsst-camera-daq}{lsst-camera-daq}		& LSSTCam 	& &	Camera DAQ (private) \\\hline
-\href{https://github.com/lsst-camera-dh}{lsst-camera-dh}			& LSSTCam  	& &	Camera Data Handling+eTraveler+misc scripts+sequencers \\\hline
+\href{https://github.com/lsst-camera-dh}{lsst-camera-dh}			& LSSTCam  	& &	Camera Data Handling, eTraveler, miscellaneous scripts, sequencers \\\hline
 \href{https://github.com/lsst-camera-electronics}{lsst-camera-electronics}	& LSSTCam	& &	Camera firmware \\\hline
 \href{https://github.com/lsst-camera-visualization}{lsst-camera-visualization}	& LSSTCam	& &	Camera visualization (image display) \\\hline
 \href{https://github.com/lsst-dm}{lsst-dm}				& DM		& 	DMTN, DMTR	& DM workspace for technical notes, non-pipeline packages, unofficial and "legacy" pipelines packages \\\hline
-\href{https://github.com/lsst-dmsst}{lsst-dmsst|}				& DM		& & 	DM System Science Team \\\hline
+\href{https://github.com/lsst-dmsst}{lsst-dmsst}				& DM		& & 	DM System Science Team \\\hline
 \href{https://github.com/lsst-dm-tutorial}{lsst-dm-tutorial}			& DM		& &	DM tutorials (mostly for authenticating workshop attendees and notebooks) \\\hline
 \href{https://github.com/lsst-epo}{lsst-epo}				& EPO		& &	Education and Public Outreach \\\hline
 \href{https://github.com/lsst-it}{lsst-it}					& IT			&	ITTN		& IT-related projects \\\hline
