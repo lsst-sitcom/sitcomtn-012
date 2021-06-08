@@ -54,7 +54,7 @@ Need introductory/summary paragraph here
 		\item \href{https://jira.slac.stanford.edu/browse/LSSTCCSSHUTTER}{CCS Shutter}:  self-explanatory.
 		\item \href{https://jira.slac.stanford.edu/browse/LSSTCCSUT}{CCS Utility Trunk}:  self-explanatory.
 		\item \href{https://jira.slac.stanford.edu/browse/LCOBM}{CCS OCS Bridge and MCM}:  self-explanatory (MCM - master control module).
-		\item \ref{https://jira.slac.stanford.edu/browse/LSSTCCSDAQ}{CCS DAQ}:  self-explanatory (DAQ - data acquisition).
+		\item \href{https://jira.slac.stanford.edu/browse/LSSTCCSDAQ}{CCS DAQ}:  self-explanatory (DAQ - data acquisition).
 		\item \href{https://jira.slac.stanford.edu/browse/LSSTCCSFCS}{CCS FCS}:  self-explanatory (FCS - filter change system?).	
 	\end{itemize}
 	\item CCS and Specific Applications
@@ -69,6 +69,8 @@ Need introductory/summary paragraph here
 
 \subsection{Drupal}
 
+Rubin uses the Drupal web content management framework as its websites’ back-end. This includes lsst.org, project.lsst.org and sites created to facilitate project meetings and reviews. To avoid the complication of having to make multiple site updates when content changes, lsst.org and project.lsst.org documents are served by hyperlinks that pull files from whatever repositories contain their sources of truth. While it is possible to upload discrete files to a specific site’s server location, by policy and standard the project eschews doing so, except in the case of meetings and reviews. Those sites’ server directories contain document and presentation files in order to preserve the state of that documentation as it was presented at the time of the meeting or review. However, during or at the conclusion of the event, the files are uploaded to DocuShare in a collection specific to the event. Presentations are uploaded as discrete handles. Other documentation such as policies, requirements, and design documents are uploaded as a zip archive, since they represent a snap-shot of an existing handle. The previous is true for project-level reviews and meetings like the Project and Community Workshops, but it may not be true for Drupal sites used for subsystem-level reviews and workshops.
+
 \begin{itemize}
 	\item Change Control What resides in Drupal that is not in DocuShare?
 	\item Review materials
@@ -78,6 +80,10 @@ Need introductory/summary paragraph here
 \end{itemize}
 
 \subsection{Euporie}
+
+Euporie is a server in the Rubin construction project network that contains a directory labeled “TS-Deliverables”. The directory contains subfolders of each of the Rubin observatory subsystems being managed by the telescope and site group. The subdirectories contain vendor supplied documentation as contract deliverables (design documentation, construction drawings, manuals and misc. information) for storage.
+
+The Euporie repository can be accessed here (requires Rubin Observatory credentials through VPN): \url{smb://euporie}.
 
 \begin{figure}
 \begin{center}
