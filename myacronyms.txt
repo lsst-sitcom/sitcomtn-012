@@ -5,3 +5,15 @@
 #
 # Example:
 #   MIA:Missing In Action
+SysML:System Modeling Language
+LTD:LSST the Docs
+TN:Technical (Tech) Note
+LSSTCam:MIE Camera Subsystem Project
+E2V:Teledyne e2v
+ITL:University of Arizona Imaging Technology Laboratory
+PDM:Solidworks Product Data Management Professional
+CAD:Computer-aided Design
+NDA:Non-disclosure Agreement
+DREB:Daughter REB
+ASPIC:Analog Signal Processing ASIC
+ASIC:Application-specific Integrated Circuit
