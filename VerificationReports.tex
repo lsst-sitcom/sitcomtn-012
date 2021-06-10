@@ -1,23 +1,27 @@
 \newpage
 \section{Verification Reports}
 
-Needs a intro paragraph here
+The Rubin Observatory Verification Architecture is composed of our MagicDraw model, Jira with Test Manager application, and Syndeia to synchronize data between MagicDraw and Jira. The verification system ensures traceability from our requirements to the verification artifacts which are verifying them. The verification system is used for all types of verification methods (Inspection, Analysis, Test, Demonstration) and for both vendor verifications and Rubin Observatory verifications.
 
+For vendor verifications, we trace the requirements/verification elements to the test cases in Jira. The test cases represent a verification artifact provided from the vendor with the results attached to the test cases.
 
-A tech note is created for each verification event setting the standard for verification execution and results.  Each verification tech note includes the following elements:
+For all verification events performed by the SIT-COM team, a SIT-COM Test Plan/Report (SCTR) is created setting the standard for verification execution and results. For each verification event performed by the Data Mangement team, a Data Management Test Plan/Report is created. Each verification event includes the following elements:
 
 \begin{itemize}
 
-	\item Annotations in the EFD to timestamp the start and stop of a particular test when running from a notebook or script
-	\item Document timestamps in test case of the start and stop of a particular test when running manually from a EUI
+	\item Traceability to all requirements/verification elements to be verified.
+	\item Document the required test personnel, test equipment, software, entry/exit criteria, etc. to execute the verification event.
+	\item Annotations in the EFD to timestamp the start and stop of a particular test when running from a notebook or script.
+	\item Document timestamps in test case of the start and stop of a particular test when running manually from a EUI.
 	\item Document all deviations or anomalies in the execution of the test case, such as needing to stop and then restart, execute in a different order, etc.
 	\item Document the actual results of the steps beyond just marking the step as pass or fail.
-	\item Generate Bug, FRACAS tickets for issues or failures that arise during verification
-	\item Generate plots, analysis results, link to raw data sources
-	\item All testers should attend verification planning meeting to ensure they are knowledgeable about how to perform the tests
-	\item Testers should provide feedback on how to improve the procedures
-	\item Develop a Jupyter notebook template that shows how to structure the notebook and how to create annotations
-	
+	\item Generate Bug, FRACAS tickets for issues or failures that arise during verification.
+	\item Generate Deviation tickets for failed verifications of requirements that will not be fully met.
+	\item Generate plots, analysis results, links to raw data sources.
+	\item All testers should attend verification planning meeting to ensure they are knowledgeable about how to perform the tests.
+	\item Testers should provide feedback on how to improve the procedures.
+	\item Develop a Jupyter notebook template that shows how to structure the notebook and how to create annotations.
+
 \end{itemize}
 
-Formal detailed records of verification done by Rubin Observatory is in Jira LVV project with reported published to lsst.io as SCTR and DMTR with an archive in DocuShare as well.
+The SCTR/DMTR is generated using the Jira REST API pulling the information from the verification objects. Formal detailed records of each verification done by Rubin Observatory is in Jira LSST Verification and Validation project with reports published to lsst.io as a SCTR or DMTR with an archive in DocuShare as well.
