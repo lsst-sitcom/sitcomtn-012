@@ -17,6 +17,7 @@
 \setDocSubtitle{(Report from the Rubin Observatory Documentation Working Group)}
 
 \author{%
+Matthew Rumore,
 Chuck Claver,
 David Cabrera,
 Rob McKercher,
@@ -26,20 +27,23 @@ Patrick Ingraham,
 Tony Johnson,
 Kristen Metzger,
 Austin Roberts,
-Jonathan Sick,
-Matthew Rumore.
+Jonathan Sick.
 }
 
 \setDocRef{SITCOMTN-012}
 \setDocUpstreamLocation{\url{https://github.com/lsst-sitcom/sitcomtn-012}}
 
-\date{2024-09-06}
+\date{2024-09-25}
 
 % Optional: name of the document's curator
-% \setDocCurator{The Curator of this Document}
+\setDocCurator{Matthew Rumore}
 
 \setDocAbstract{%
-This technical note primarily brings together the sources of critical and historical documentation developed across the Rubin Observatory Construction Project; some sources developed by Rubin Observatory Pre-operations and Operations Teams are also included. This inventory is meant as a guide for the Rubin Operations Team to determine how and what documentation is transferred as a deliverable from the Construction Project.
+This technical note primarily brings together the sources of critical and historical documentation developed across the Rubin Observatory Construction project, with some sources developed by Rubin Observatory Pre-operations and Operations Teams are also included.
+This inventory is meant as a guide for the Rubin Operations project to determine how and what documentation is transferred as a deliverable from the Construction project.
+This report is a product of the Documentation Working Group.
+It responds to charge item 2 in the \textit{Charge to the Documentation Working Group}, \citeds{LSE-489}.
+The proposed future state for Rubin Observatory Operations documentation will be reported in another technical report, \citeds{SITCOMTN-014}.
 }
 
 % Change history defined here.
@@ -50,6 +54,7 @@ This technical note primarily brings together the sources of critical and histor
   \addtohist{0.1}{2021-06-01}{Initial draft from Confluence pages.}{Chuck Claver}
   \addtohist{1.0}{2021-06-10}{First release}{Chuck Claver}
   \addtohist{2.0}{2024-09-06}{Second release}{Matthew Rumore}
+  \addtohist{2.9}{2024-09-25}{Edits for final release}{Matthew Rumore}
 }
 
 
@@ -64,16 +69,24 @@ This technical note primarily brings together the sources of critical and histor
 % You can also use the \input command to include several content files.
 
 \input{Intro}
+
 \input{DocuShare}
+
 \input{TechNotes}
+
 \input{ConfluencePages}
+
 \input{EngineeringModels}
+
 \input{GitHub}
+
 \input{SystemDatabases}
+
 \input{VerificationReports}
+
 \input{EPO}
+
 \input{InfoTech}
-% \input{OtherSources}
 
 \newpage
 \appendix
@@ -88,9 +101,5 @@ This technical note primarily brings together the sources of critical and histor
 \input{acronyms.tex}
 % If you want glossary uncomment below -- comment out the two lines above
 %\printglossaries
-
-
-
-
 
 \end{document}
