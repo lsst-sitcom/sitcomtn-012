@@ -1,6 +1,6 @@
 \section{TechNotes: https://www.lsst.io}
 
-LSST the Docs (LTD), also known by its URL ``lsst.io'', is a documentation hosting platform built and operated by the SQuaRE (Data Management) team.
+LSST the Docs (LTD), also known by its URL ``lsst.io,'' is a documentation hosting platform built and operated by the SQuaRE (Data Management) team.
 LTD hosts what are called static websites, meaning any website built from HTML, CSS and JavaScript that doesn't need an active server to render content (as opposed to say Confluence, DocuShare, or Drupal websites).
 Static websites are a natural fit for documentation projects that originate from a GitHub repository, such as software documentation or LaTeX documents.
 Teams use the same processes to collaborate on documentation as they are with code, and the documentation is tested and built using the same process as the software is tested and built.
@@ -51,7 +51,7 @@ TSTN 		& 25          \\\hline
 \subsection{Terminology}
 
 {\bf lsst.io:}  The documentation hosting domain for Rubin Observatory, which is powered by LSST the Docs.
-All subdomains of lsst.io are independent documentation projects (for example, developer.lsst.io for the DM Developer Guide or sqr-006.lsst.io for the SQR-006 technote).
+All subdomains of lsst.io are independent documentation projects (for example, \url{developer.lsst.io} for the DM Developer Guide or \url{https://sqr-006.lsst.io} for the \citeds{SQR-006} technote).
 
 {\bf \url{www.lsst.io}:}  The documentation portal. This is a regular documentation project hosted on lsst.io, but it uses the ``www'' subdomain to serve as a documentation homepage.
 \url{www.lsst.io} provides documentation search and faceted browsing capabilities.
@@ -59,8 +59,7 @@ It is still in development and the current status is documented at \url{https://
 The site itself is built with React/Gatsby.js (\url{https://github.com/lsst-sqre/www_lsst_io}), the search database is SaaS \citep{SaaS-cite}), and the bot that indexes content into the search database is called Ook (\url{https://github.com/lsst-sqre/ook}).
 
 {\bf LSST the DOCS (LTD):}  Commonly written as LTD, LSST the Docs is the technical system for hosting versioned static websites. lsst.io is one such deployment.
-The technical motivation and design of LTD are documented in SQR-006: The LSST the Docs Platform for Continuous Documentation Delivery (\url{https://sqr-006.lsst.io}, \citeds{SQR-006}).
-The key technical features of LTD are:
+The technical motivation and design of LTD are documented in SQR-006: The LSST the Docs Platform for Continuous Documentation Delivery (\url{https://sqr-006.lsst.io}, \citeds{SQR-006}). The key technical features of LTD are:
 
 \begin{itemize}
 	\item High reliability, scaling, and security: documentation is hosted in Amazon S3 and served through the Fastly content distribution network. We don't operate any servers that receive traffic from users;
@@ -70,4 +69,4 @@ The key technical features of LTD are:
 
 {\bf Technical notes (technotes):}  These are documents that are not change controlled, but otherwise have features similar to ``official'' project documents.
 They were designed by the DM SQuaRE team as a replacement for Confluence in writing organized documents for sharing ideas within, and beyond, the project.
-See SQR-000: The LSST DM Technical Note Publishing Platform (https://sqr-000.lsst.io) for our motivation to create technical notes. \citedsp{SQR-000}
+See SQR-000: The LSST DM Technical Note Publishing Platform (\url{https://sqr-000.lsst.io}) for our motivation to create technical notes. \citedsp{SQR-000}
