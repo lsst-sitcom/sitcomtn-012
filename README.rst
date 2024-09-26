@@ -10,7 +10,7 @@ Rubin Construction Documentation Inventory
 SITCOMTN-012
 ============
 
-This tech note bring together the sources of critical documentation that has been developed across the Rubin Observatory Construction Project.  This inventory is meant as a guide to the Rubin Operations team for how and what documentation is transferred  as a deliverable from the construction Project
+This technical note primarily brings together the sources of critical and historical documentation developed across the Rubin Observatory Construction project, with some sources developed by Rubin Observatory Pre-operations and Operations Teams also included. This inventory is meant as a guide for the Rubin Operations project to determine how and what documentation is transferred as a deliverable from the Construction project. This report is a product of the Documentation Working Group. It responds to charge item 2 in the Charge to the Documentation Working Group, LSE-489. The proposed future state for Rubin Observatory Operations documentation will be reported in another technical report, SITCOMTN-014.
 
 Links
 =====
